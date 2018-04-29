@@ -1,122 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>cevasco.org</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8"/>
-  <style>
-    html {
-      box-sizing: border-box;
-      font-size: 16px;
-    }
+    <title>cevasco.org</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <style>
+      html {
+        box-sizing: border-box;
+        font-size: 16px;
+      }
 
-    *, *:before, *:after {
-      box-sizing: inherit;
-    }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
 
-    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-      margin: 0;
-      padding: 0;
-      font-weight: normal;
-    }
+      body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+      }
 
-    ol, ul {
-      list-style: none;
-    }
-    html, body {
-      font-family: 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
-      color: #aaa;
-      background: #fefefe;
-    }
-    body {
-      padding: 3vw;
-    }
-    header h1 {
-      color: #000;
-      display: inline;
-      font-size: inherit;
-    }
-    header .description {
-      color: #ccc; 
-    }
-    em {
-      color: #777;
-      font-style: normal;
-    }
-    strong, dt {
-      color: #444;
-      font-weight: normal;
-    }
-    article {
-    }
-    .center {
-      margin: auto;
-      text-align: center;
-    }
-    .separator {
-      height: 1vw;
-      border: none;
-    }
-    a, a:visited {
-      color: #A22600;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
-      header {
-        font-size: 6.6vw;
+      ol, ul {
+        list-style: none;
+      }
+      html, body {
+        font-family: 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        color: #aaa;
+        background: #fefefe;
+      }
+      body {
+        padding: 3vw;
+      }
+      header h1 {
+        color: #000;
+        display: inline;
+        font-size: inherit;
+      }
+      header .description {
+        color: #ccc; 
+      }
+      em {
+        color: #777;
+        font-style: normal;
+      }
+      strong, dt {
+        color: #444;
+        font-weight: normal;
       }
       article {
-        font-size: 4.4vw;
       }
-      footer {
-        font-size: 2.2vw;
+      .center {
+        margin: auto;
+        text-align: center;
+      }
+      .separator {
+        height: 1vw;
+        border: none;
+      }
+      a, a:visited {
+        color: #A22600;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      /* Custom, iPhone Retina */ 
+      @media only screen and (min-width : 320px) {
+        header {
+          font-size: 6.6vw;
+        }
+        article {
+          font-size: 4.4vw;
+        }
+        footer {
+          font-size: 2.2vw;
+        }
+
       }
 
-    }
+      /* Extra Small Devices, Phones */ 
+      @media only screen and (min-width : 480px) {
+        header {
+          font-size: 6vw;
+        }
+        article {
+          font-size: 4vw;
+        }
+        footer {
+          font-size: 2vw;
+        }
+      }
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-      header {
-        font-size: 6vw;
+      /* Small Devices, Tablets */
+      @media only screen and (min-width : 768px) {
+        header {
+          font-size: 3.75vw;
+        }
+        article {
+          font-size: 2.5vw;
+        }
+        footer {
+          font-size: 1.25vw;
+        }
       }
-      article {
-        font-size: 4vw;
-      }
-      footer {
-        font-size: 2vw;
-      }
-    }
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-      header {
-        font-size: 3.75vw;
+      /* Medium Devices, Desktops */
+      @media only screen and (min-width : 992px) {
+        header {
+          font-size: 3vw;
+        }
+        article {
+          font-size: 2vw;
+        }
+        footer {
+          font-size: 1vw;
+        }
       }
-      article {
-        font-size: 2.5vw;
-      }
-      footer {
-        font-size: 1.25vw;
-      }
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-      header {
-        font-size: 3vw;
-      }
-      article {
-        font-size: 2vw;
-      }
-      footer {
-        font-size: 1vw;
-      }
-    }
-  </style>
+    </style>
   </head>
   <body>
     <header>
@@ -124,23 +124,24 @@
     <hr class="separator" />
     </header>
     <div>
-    <dl>
-      <dt>notable software</dt>
-      <dd><a href="https://min-lang.org">min</a> &middot; a terse concatenative <em>programming language</em></dd>
-      <dd><a href="https://h3rald.com/hastyscribe">hastyscribe</a> &middot; a professional <em>markdown compiler</em></dd>
-      <dd><a href="https://hastysite.h3rald.com">hastysite</a> &middot; a high-performance <em>static site generator</em></dd>
-      <dd><a href="https://h3rald.com/litestore">litestore</a> &middot; a minimalist nosql <em>document store</em></dd>
-  <dd><a href="https://www.h3rald.com/herald-vim-color-scheme/">herald</a> &middot; a well-balanced <em>vim color scheme</em></dd>
-    </dl>
-    <dl>
-      <dt>elsewhere</dt>
-      <dd>
-      <a href="https://twitter.com/h3rald">twitter</a> &middot;
-      <a href="https://github.com/h3rald">github</a> &middot;
-      <a href="https://www.linkedin.com/in/fabiocevasco/">linkedin</a>
-      </dd>
-    </dl>
-    <p>&rarr; more on <a href="https://h3rald.com">h3rald.com</a></p>
+      <dl>
+        <dt>notable software</dt>
+        <dd><a href="https://min-lang.org">min</a> &middot; a terse concatenative <em>programming language</em></dd>
+        <dd><a href="https://h3rald.com/hastyscribe">hastyscribe</a> &middot; a professional <em>markdown compiler</em></dd>
+        <dd><a href="https://hastysite.h3rald.com">hastysite</a> &middot; a high-performance <em>static site generator</em></dd>
+        <dd><a href="https://h3rald.com/litestore">litestore</a> &middot; a minimalist nosql <em>document store</em></dd>
+        <dd><a href="https://h3rald.com/nifty">nifty</a> &middot; a tiny <em>(pseudo) package manager and script runner</em></dd>
+        <dd><a href="https://www.h3rald.com/herald-vim-color-scheme/">herald</a> &middot; a well-balanced <em>vim color scheme</em></dd>
+      </dl>
+      <dl>
+        <dt>elsewhere</dt>
+        <dd>
+        <a href="https://twitter.com/h3rald">twitter</a> &middot;
+        <a href="https://github.com/h3rald">github</a> &middot;
+        <a href="https://www.linkedin.com/in/fabiocevasco/">linkedin</a>
+        </dd>
+      </dl>
+      <p>&rarr; more on <a href="https://h3rald.com">h3rald.com</a></p>
     </div>
     <hr class="separator" />
     <footer>
